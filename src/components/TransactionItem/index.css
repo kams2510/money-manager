@@ -1,0 +1,12 @@
+/* Write your CSS here */
+li {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5px;
+  text-align: center;
+}
+
+img {
+  height: 25px;
+  width: 25px;
+}

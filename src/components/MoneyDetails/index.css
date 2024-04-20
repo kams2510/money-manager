@@ -1,0 +1,51 @@
+/* Write your CSS here */
+.money-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  width: 170px;
+  border-radius: 6px;
+  margin: 10px;
+}
+
+img {
+  height: 50px;
+  width: 50px;
+  margin: 20px 10px;
+}
+
+.rupees {
+  font-size: 23px;
+}
+
+span {
+  font-size: 15px;
+}
+
+.balance-card {
+  background-color: #ecfccb;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #475569;
+}
+
+.income-card {
+  background-color: #06b6d4;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #0b69ff;
+}
+
+.expence-card {
+  background-color: #7c3aed;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #7c3aed;
+}

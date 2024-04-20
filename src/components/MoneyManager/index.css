@@ -1,0 +1,67 @@
+/* Write your CSS here */
+.header-card {
+  background-color: #cbd5e1;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  text-align: start;
+}
+
+label {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #7e858e;
+}
+.input-cards {
+  margin-bottom: 7px;
+}
+
+input {
+  border: 1px solid #7e858e;
+  border-radius: 3px;
+  padding: 2px;
+}
+
+select {
+  width: 175px;
+}
+
+.add-btn {
+  background-color: #0b69ff;
+  border: 0px;
+  border-radius: 5px;
+  color: white;
+  padding: 2px;
+  width: 45px;
+  text-align: center;
+}
+.bottom-card {
+  display: flex;
+  justify-content:center;
+  flex-wrap: wrap;
+}
+form {
+  margin-left: 20px;
+}
+
+.history-title-card {
+  display: flex;
+
+  border-left: 1px solid #7e858e;
+  border-bottom: 1px solid #7e858e;
+  padding-left: 5px;
+  border-top: none;
+  border-right: none;
+}
+.history-card {
+  width: 23rem;
+}
+
+.history-title-card > p {
+  margin-right: 52px;
+}
+
+ul {
+  list-style-type: none;
+}
